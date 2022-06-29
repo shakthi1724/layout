@@ -1,0 +1,147 @@
+.container{
+    margin: auto;
+    width: 1300px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px;
+    height: 80px;
+}
+.header-logo{
+    width: 108px;
+    height: 78px;
+    border: solid 1px green;
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px;
+    height: 337px;
+}
+.banner-text{
+    border: solid 1px green;
+    width: 573px;
+    height: 318px;
+}
+.banner-image{
+    border: solid 1px blue;
+    width: 573px;
+    height: 318px;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px;
+    height: 600px;   
+}
+.about-video{
+    border: solid 1px blue;
+    height: 550px;
+    width: 479px;
+}
+.about-text{
+    border: solid 1px green;
+    height: 550px;
+    width: 588px;
+}
+.statistics-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px;
+    height: 360px;
+}
+.statistics-heading{
+    border: solid 1px blue;
+    height: 105px;
+    width: 642px;
+}
+.statistics-part{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px blue;
+    flex-wrap: wrap;
+    height: 105px;
+    width: 125px;
+}
+.clients-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 2px;
+    height: 233px;
+}
+.clients-area{
+    height: 120px;
+    outline: solid 1px violet;
+    width: 25%;
+}
+.service-header{
+    height: 175px;
+    border: solid 2px;
+}
+.service-content{
+    height: 425px;
+    border: solid 2px royalblue;
+}
+.service-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item{
+    height: 165px;
+    outline: solid 1px palegreen;
+    width: 33.33%;
+}
+.port-header{
+    height: 250px;
+    border: solid 2px;
+}
+.port-content{
+    height: 700px;
+    border: solid 2px palevioletred;
+}
+.port-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.port-item{
+    height: 300px;
+    outline: solid 1px green;
+    width: 33.33%;
+}
+.profile-header{
+    height: 450px;
+    border: solid 2px;
+}
+.team-header{
+    height: 165px;
+    border: solid 2px;
+}
+.team-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px darkblue;
+    height: 450px;
+}
+.team-item{
+    border: solid 1px hotpink;
+    height: 400px;
+    width: 300px;
+}
+.gallery-header{
+    height: 175px;
+    border: solid 2px;
+}
+.gallery-content{
+    height: 500px;
+    border: solid 2px khaki;   
+}
+.gallery-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-item{
+    height: 230px;
+    outline: solid 1px blueviolet;
+    width: 25%;   
+}
